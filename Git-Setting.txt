@@ -1,0 +1,39 @@
+Ⅰ. 버전관리 VCS
+
+    1. git config --global core.autocrlf true
+       개행 문자 (Newline)설정 : 맥에서는 true를 input으로 변경
+
+    2. git config --global user.name 'Wholesome-Gee'
+       사용자 정보(이름) 설정
+
+    3. git config --global user.email 'jiyong0419@naver.com'
+       사용자 정보(이메일) 설정
+
+    4. git config --global --list
+       설정 값 확인
+
+    ------------------------------최초 1회 실행------------------------------
+
+    5. git init
+       현재 프로젝트 변경사항 버전관리를 시작
+    
+    6. git add .
+       모든 파일을 스테이지에 등록 (.대신 파일명을 작성 → git add index. html )
+
+    7. git commit -m 'Create Project'
+       메시지(Create Project)와 함께 버전을 생성
+
+    -------------------------------깃 커밋 절차-------------------------------
+    
+    8. Github에 해당 프로젝트의 repository(저장소) 생성
+
+    9. git remote add origin (저장소 주소)
+       local 환경과 Github 원격 저장소(별칭 'origin')와 연결 시킴
+
+    10. git push origin main
+        원격저장소(origin)에 브랜치를(main) 업로드
+
+    --------------------------------기타 명령어--------------------------------
+
+    11. git status
+        현재 프로젝트의 버전관리 상태를 확인
