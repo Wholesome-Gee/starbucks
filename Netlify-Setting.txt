@@ -1,0 +1,13 @@
+Ⅰ. How to use Netlify
+    1. Netlify란?
+       프로젝트를 지속적으로 사이트로 배포해줌
+
+    2. Netlify 로그인
+       Github account로 Netlify에 로그인
+
+    3. 사이트 만들기
+       a. Add new site 클릭
+       b. Import an existing project 선택
+       c. Github 선택
+       d. 원하는 repository 선택
+       e. 정보입력 후 Deploy 클릭
