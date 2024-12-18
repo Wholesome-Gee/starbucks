@@ -9,9 +9,9 @@
 ### **_2. 오픈그래프 설정 (P1.Ch10.02)_**
 
 - 웹페이지가 SNS로 공유될 때 우선적으로 활용되는 정보
-- <meta property="og:type" content="website"/>
+- `html<meta property="og:type" content="website"/>`
 - og property 종류 = type, site_name, title, description, image, url
-- <meta property="twitter:type" content="website"/>
+- `html <meta property="twitter:type" content="website"/>`
 - twitter property 종류 = card, site, title, description, image, url
 
 ### **_3. 구글폰트 설정 (P1.Ch10.03)_**
@@ -21,9 +21,9 @@
 
 ### **_4. Material Icons 설정 (P1.Ch10.04)_**
 
-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> index.html에 복붙
+- `html <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` index.html에 복붙
   (구글폰트 link태그 아래에 작성)
-- <div class="material-icons">아이콘이름</div> 복붙
+- `html <div class="material-icons">아이콘이름</div>` 복붙
   (원하는 위치에 적용)
 - main.css에서 .material-icons 선택자 추가 후 옵션 부여
   <br>
